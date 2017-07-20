@@ -1,0 +1,22 @@
+OWNER_ID = ''
+BOT_PREFIX = ''
+TOKEN = ''
+GAME_CHANNEL = ''
+DEBUG_CHANNEL = ''
+WEREWOLF_SERVER = ''
+PLAYERS_ROLE_NAME = ''
+ADMINS_ROLE_NAME = ''
+WEREWOLF_NOTIFY_ROLE_NAME = ''
+ADMINS = ['']
+IGNORE_LIST = []
+TOKENS_GIVEN = 5
+TOKEN_RESET = 10
+IGNORE_THRESHOLD = 7
+NOTIFY_FILE = 'notify.txt'
+BACKUP_INTERVAL = 300
+MESSAGE_LANGUAGE = 'en'
+LOG_FILE = 'debug.txt'
+MIN_LOG_LEVEL = 0
+# 0 to log everything, 1 to log only gameplay-related info, 2 to log only warnings
+STASIS_FILE = 'wwstat.json'
+PLAYING_MESSAGE = '{0}info | {0}help | {0}join'.format(BOT_PREFIX)
